@@ -11,7 +11,7 @@ return this.props.todos.map((todo)=>
 }
 }
 //PropTypes is a good practice
-Todos.propTpes = {
+Todos.propTypes = {
   todos: PropTypes.array.isRequired
 }
 
