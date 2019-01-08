@@ -23,6 +23,7 @@ getStyle = () =>{
   <input type="checkbox" onChange={this.props.markComplete.bind(this,id)}/>
   {' '}
 {title}</p>
+<p>little zmiana</p>
       </div>
     )
   }
