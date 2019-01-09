@@ -23,6 +23,7 @@ getStyle = () =>{
   <input type="checkbox" onChange={this.props.markComplete.bind(this,id)}/>
   {' '}
 {title}</p>
+<button onClick={this.props.delToDo.bind(this,id)} style={btnStyle}>x</button>
       </div>
     )
   }
@@ -31,6 +32,15 @@ ToDoItem.propTypes = {
   todo: PropTypes.object.isRequired
 }
 
+const btnStyle ={
+  background : '#ff0000',
+  color:'#fff',
+  border:'none',
+  padding:'5px 9px',
+  borderRadius:'50%',
+  cursor:'pointer',
+  float:'right'
+}
 
 
 
