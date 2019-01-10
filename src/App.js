@@ -22,7 +22,7 @@ class App extends Component {
       {
         id: 3,
         title: 'Meeting with boss',
-        completed: false
+        completed: true
 
       }
     ]
