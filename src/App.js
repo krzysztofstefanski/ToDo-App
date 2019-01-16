@@ -24,6 +24,11 @@ class App extends Component {
         title: 'Meeting with boss',
         completed: true
 
+      },
+      {
+        id:4,
+        title:'Buy monitor',
+        complited:false,
       }
     ]
   }
