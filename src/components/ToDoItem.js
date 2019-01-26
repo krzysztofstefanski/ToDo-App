@@ -32,7 +32,7 @@ ToDoItem.propTypes = {
   todo: PropTypes.object.isRequired
 }
 
-const btnStyle ={
+const btnStyle = {
   background : '#ff0000',
   color:'#fff',
   border:'none',
